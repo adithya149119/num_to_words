@@ -37,7 +37,7 @@ for i in range(0,s):
             if y[i] != '0':
                 st = a[y[i]]+" thousand "+st
             if y[i] ==  '0':
-                if y[i+1] != 0:
+                if y[i+1] != '0':
                     st = ' thousand '+st
     elif i == 4:
         if y[i] != '0' and y[i]!='1':
@@ -49,7 +49,7 @@ for i in range(0,s):
             if y[i] != '0':
                 st = a[y[i]]+" lakh "+st
             if y[i] ==  '0':
-                if y[i+1] != 0:
+                if y[i+1] != '0':
                     st = ' lakh '+st
     elif i == 6:
         if y[i] != '0' and y[i] != '1':
